@@ -24,7 +24,7 @@ const fromNullable = x => (x === null || x === undefined ? Left(x) : Right(x))
 const IO = g => ({
   map: f => IO(() => f(g())),
   fold: () => g(),
-  toString: () => `IO(${g})`,
+  inspect: () => `IO(${g})`,
 })
 
 IO.of = x => IO(() => x)
