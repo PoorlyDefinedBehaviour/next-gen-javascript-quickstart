@@ -13,7 +13,7 @@ WWWWWW||WWWWWW
 
 $ yarn
 $ yarn start
-$ yarn start:Watch
+$ yarn start:watch
 $ yarn build:dev
 $ yarn build:prod
 ```
